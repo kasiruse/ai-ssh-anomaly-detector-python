@@ -20,27 +20,31 @@ Unlike traditional rule-based firewalls (like fail2ban) that rely on static thre
 ## ⚙️ Installation
 
 1. Clone the repository:
+  
    ```bash
-   git clone [https://github.com/kasiruse/ai-ssh-anomaly-detector-python.git](https://github.com/kasiruse/ai-ssh-anomaly-detector-python.git)
-   cd ai-ssh-anomaly-detector
+   git clone https://github.com/kasiruse/ai-ssh-anomaly-detector-python.git
+   cd ai-ssh-anomaly-detector-python
    ```
 
 2. Install the required dependencies:
-   **Arch Linux / CachyOS:**
-```bash
-sudo pacman -S python-pandas python-scikit-learn
-```
+
+**Arch Linux / CachyOS:**
+   
+   ```bash
+   sudo pacman -S python-pandas python-scikit-learn
+   ```
 
 **Debian / Ubuntu:**
-```bash
-sudo apt update
-sudo apt install python3-pandas python3-sklearn
-```
+  
+   ```bash
+   sudo apt install python3-pandas python3-sklearn
+   ```
 
 **Fedora / RHEL:**
-```bash
-sudo dnf install python3-pandas python3-scikit-learn
-```
+   
+   ```bash
+   sudo dnf install python3-pandas python3-scikit-learn
+   ```
 
 ## 🎯 Usage
 
